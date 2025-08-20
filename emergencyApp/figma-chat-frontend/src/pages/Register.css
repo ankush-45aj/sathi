@@ -1,0 +1,95 @@
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f4f6;
+}
+
+.register-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.register-card h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #374151;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Reuse form styles from Login.css */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.register-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.register-btn:hover {
+  background-color: #2563eb;
+}
+
+.register-btn:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.error-alert {
+  background-color: #fef2f2;
+  color: #ef4444;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  margin-bottom: 1rem;
+  border: 1px solid #fecaca;
+}
+
+.register-card p {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #6b7280;
+}
+
+.register-card a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.register-card a:hover {
+  text-decoration: underline;
+}

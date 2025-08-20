@@ -1,0 +1,29 @@
+:root {
+/* Colors - map these to your Figma tokens */
+--bg: #0f1115;
+--panel: #151821;
+--panel-2: #10131a;
+--muted: #98a2b3;
+--text: #e6e7ea;
+--primary: #6ea8ff; /* replace with your Button primary */
+--primary-700: #3f83f8;
+--accent: #8b5cf6;
+--success: #16a34a;
+--danger: #ef4444;
+--border: #232836;
+
+
+/* Radii & spacing */
+--radius: 16px;
+--radius-sm: 12px;
+--gap: 16px;
+--gap-lg: 24px;
+
+
+/* Typography */
+--font-sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+--h1: 40px;
+--h2: 28px;
+--h3: 20px;
+--body: 15px;
+}
